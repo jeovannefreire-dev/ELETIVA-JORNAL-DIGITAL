@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jornal Escolar da Eletiva Comunicação da Palavra - Centro Educa Mais Dom Ungarelli">
+  <title>Jornal Comunicação da Palavra | Dom Ungarelli</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <img src="assets/cabecalho-comunicacao-da-palavra.png"
+         alt="Eletiva Comunicação da Palavra - Centro Educa Mais Dom Ungarelli"
+         class="cabecalho">
+  </header>
+
+  <nav class="nav" aria-label="Navegação principal">
+    <div class="nav-inner">
+      <a href="#inicio">Início</a>
+      <a href="#noticias">Notícias</a>
+      <a href="#videos">Vídeos</a>
+      <a href="#eletiva">A Eletiva</a>
+      <a href="#equipe">Equipe</a>
+      <button id="themeBtn" type="button" title="Alternar modo de leitura">◐</button>
+    </div>
+  </nav>
+
+  <main id="inicio">
+    <section class="destaque container">
+      <div class="badge">📰 JORNAL ESCOLAR</div>
+      <h1>Comunicação da Palavra</h1>
+      <p class="subtitulo">Palavras que <strong>informam</strong>, conectam e transformam.</p>
+      <p class="lead">
+        Um espaço produzido pelos estudantes para divulgar notícias, projetos,
+        entrevistas, opiniões e acontecimentos do <strong>Centro Educa Mais Dom Ungarelli</strong>.
+      </p>
+      <div class="acoes">
+        <a class="btn primary" href="#videos">▶ Assistir às produções</a>
+        <a class="btn secondary" href="#noticias">📰 Ler as matérias</a>
+      </div>
+    </section>
+
+    <section id="noticias" class="section container">
+      <div class="section-title">
+        <span>01</span>
+        <div>
+          <h2>Notícias em destaque</h2>
+          <p>Informação produzida pelos estudantes da eletiva.</p>
+        </div>
+      </div>
+
+      <div class="grid noticias-grid">
+        <article class="card noticia">
+          <div class="card-top orange">🎙️</div>
+          <div class="card-body">
+            <span class="tag">CIDADANIA</span>
+            <h3>Jovem protagonista: participação política também é cidadania</h3>
+            <p>
+              A produção discute o papel dos jovens na sociedade, a importância
+              de buscar informação, conhecer direitos e deveres e participar
+              das decisões que influenciam a comunidade.
+            </p>
+            <button class="ler" data-modal="cidadania">Ler matéria →</button>
+          </div>
+        </article>
+
+        <article class="card noticia">
+          <div class="card-top blue">📱</div>
+          <div class="card-body">
+            <span class="tag">TECNOLOGIA</span>
+            <h3>Uso das telas: até onde a tecnologia influencia nossa rotina?</h3>
+            <p>
+              Entrevistas e pesquisas levantam uma reflexão sobre o uso do
+              celular, o tempo diante das telas e a necessidade de equilíbrio
+              no cotidiano dos estudantes.
+            </p>
+            <button class="ler" data-modal="telas">Ler matéria →</button>
+          </div>
+        </article>
+
+        <article class="card noticia">
+          <div class="card-top navy">💻</div>
+          <div class="card-body">
+            <span class="tag">FORMAÇÃO</span>
+            <h3>Administração e Informática: conhecimento para o futuro</h3>
+            <p>
+              Os cursos ampliam conhecimentos técnicos e desenvolvem
+              competências como comunicação, organização, criatividade,
+              trabalho em equipe e preparação para o mundo profissional.
+            </p>
+            <button class="ler" data-modal="formacao">Ler matéria →</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="videos" class="section videos-section">
+      <div class="container">
+        <div class="section-title light">
+          <span>02</span>
+          <div>
+            <h2>Vídeos da Eletiva</h2>
+            <p>Reportagens, entrevistas e produções audiovisuais dos estudantes.</p>
+          </div>
+        </div>
+
+        <div class="grid videos-grid">
+          <article class="video-card">
+            <div class="video-icon">▶</div>
+            <div>
+              <span class="tag light-tag">REPORTAGEM</span>
+              <h3>Jovem Protagonista e Cidadania</h3>
+              <p>Reflexões dos estudantes sobre participação, informação e cidadania.</p>
+              <a class="video-btn" href="https://drive.google.com/drive/folders/1gdFSRct7IxmIYQPmtenqjM0cizi0hPBR" target="_blank" rel="noopener">Ver vídeos no Drive ↗</a>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-icon">▶</div>
+            <div>
+              <span class="tag light-tag">TECNOLOGIA</span>
+              <h3>Uso Excessivo do Celular</h3>
+              <p>Entrevistas e informações sobre telas, internet e uso consciente da tecnologia.</p>
+              <a class="video-btn" href="https://drive.google.com/drive/folders/1gdFSRct7IxmIYQPmtenqjM0cizi0hPBR" target="_blank" rel="noopener">Ver vídeos no Drive ↗</a>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-icon">▶</div>
+            <div>
+              <span class="tag light-tag">PROFISSÕES</span>
+              <h3>Administração e Informática</h3>
+              <p>Conhecimentos, oportunidades e caminhos de formação para os estudantes.</p>
+              <a class="video-btn" href="https://drive.google.com/drive/folders/1gdFSRct7IxmIYQPmtenqjM0cizi0hPBR" target="_blank" rel="noopener">Ver vídeos no Drive ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="video-note">
+          <strong>Como colocar os links individuais:</strong> abra <code>js/script.js</code>
+          e substitua os links marcados como <code>COLE_AQUI_O_LINK_DO_VIDEO</code>.
+          O layout já está preparado para YouTube, Google Drive ou outro endereço público.
+        </p>
+      </div>
+    </section>
+
+    <section id="eletiva" class="section container">
+      <div class="section-title">
+        <span>03</span>
+        <div>
+          <h2>Sobre a Eletiva</h2>
+          <p>Comunicação, tecnologia e protagonismo estudantil.</p>
+        </div>
+      </div>
+
+      <div class="sobre">
+        <div>
+          <h3>🎯 Nosso objetivo</h3>
+          <p>
+            Integrar os conhecimentos de <strong>Língua Portuguesa e Informática</strong>
+            na produção de um jornal digital escolar, desenvolvendo leitura, escrita,
+            pesquisa, análise crítica e o uso responsável das ferramentas digitais.
+          </p>
+        </div>
+        <div class="competencias">
+          <div><b>📖 Leitura e escrita</b><span>Produção de textos com sentido e propósito.</span></div>
+          <div><b>🔎 Pesquisa</b><span>Busca, seleção e análise crítica de informações.</span></div>
+          <div><b>💻 Tecnologia</b><span>Ferramentas digitais para produzir e comunicar.</span></div>
+          <div><b>💡 Criatividade</b><span>Ideias transformadas em conteúdos para a comunidade.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipe" class="section equipe">
+      <div class="container">
+        <div class="section-title">
+          <span>04</span>
+          <div>
+            <h2>Equipe</h2>
+            <p>Centro Educa Mais Dom Ungarelli</p>
+          </div>
+        </div>
+        <div class="equipe-card">
+          <div class="avatar">✦</div>
+          <div>
+            <h3>Professores: Ana Telma e Jeovanne</h3>
+            <p>Eletiva Comunicação da Palavra</p>
+            <span>Palavras que informam, conectam e transformam.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <strong>Centro Educa Mais Dom Ungarelli</strong>
+        <p>Eletiva Comunicação da Palavra</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://sites.google.com/d/1xRMUIwR4ruLQI1-pVa90dddtZwk55GhQ/p/1xbSRiH3gbwgawAwJYI346b6ZYze8iSgN/edit" target="_blank" rel="noopener">Google Sites ↗</a>
+        <a href="https://drive.google.com/drive/folders/1gdFSRct7IxmIYQPmtenqjM0cizi0hPBR" target="_blank" rel="noopener">Google Drive ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="close" aria-label="Fechar">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <button id="topBtn" title="Voltar ao topo">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
